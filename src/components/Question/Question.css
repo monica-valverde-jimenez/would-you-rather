@@ -1,0 +1,29 @@
+.question-description {
+  padding: 10px 0 10px 10px;
+}
+
+.question-description span{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.question-description a {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #33b7ff;
+  width: 100%;
+  max-width: 205px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 21px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.question-description a:hover {
+  background-color: #33b7ff;
+  color: white;
+}

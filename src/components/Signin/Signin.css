@@ -1,0 +1,90 @@
+.signin-wrapper {
+  max-width: 460px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signin-inner {
+  border: 2px solid gray;
+}
+
+.signin-Header {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(120,202,246,1) 69%, rgba(51,183,255,1) 100%);
+  padding: 20px 5px;
+  border-bottom: 1px solid;
+}
+
+.signin-Header h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.signin-Header span {
+  font-size: 0.75rem;
+}
+
+.signin-label {
+  color: #33b7ff;
+  margin: 20px 0 5px 0;
+}
+
+.signin-button-container {
+  margin-bottom: 20px;
+}
+
+.signin-button,
+.signin-select {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 5px 5px 5px;
+}
+
+/* CSS */
+.signin-button {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.signin-button:hover,
+.signin-button:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.signin-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.signin-button:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.signin-logo {
+  width: 80px;
+  text-align: center;
+  margin: 20px auto;
+}

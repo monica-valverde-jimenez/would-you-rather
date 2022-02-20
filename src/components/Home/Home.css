@@ -1,0 +1,33 @@
+.home-wrapper {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.home-tabs {
+  display: flex;
+}
+
+.home-tab {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+
+.home-tab:first-child {
+  border-right: 0;
+}
+
+.home-tab--active {
+  background-color: rgb(240,240,240, 0.8);
+  color: #33b7ff;
+}
+
+.home-questions {
+  border: 1px solid gray;
+  border-top: 0;
+  padding: 60px 10px;
+}

@@ -1,0 +1,33 @@
+.card-wrapper {
+  border: 1px solid gray;
+  margin: 25px 0;
+}
+
+.card-wrapper:first-child {
+  margin: 0;
+}
+
+.card-header {
+  padding: 15px 5px;
+  background-color: rgb(240,240,240, 0.8);
+  font-weight: bold;
+}
+
+.card-avatar {
+  padding: 5px 20px 5px;
+  border-right: 1px solid;
+}
+
+.card-description,
+.card-avatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-avatar img {
+  width: 100px;
+}
+
+.card-inner {
+  border-top: 1px solid;
+}

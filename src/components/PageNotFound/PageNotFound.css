@@ -1,0 +1,9 @@
+.page-not-found-wrapper {
+  margin: 20px auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.page-not-found-wrapper a {
+  color: #33b7ff;
+}
