@@ -5,8 +5,9 @@ import './PageNotFound.css';
 function PageNotFound() {
   return (
     <div className="page-not-found-wrapper">
-      Page Not found. <br/>
-      <Link to={{ pathname: `/` }}>Click here to Go Home</Link>
+      <strong>Whoops!</strong><br/>
+      404 Page Not found. <br/><br/>
+      <Link to={{ pathname: `/` }}>Try our Home page instead</Link>
     </div>
   );
 }

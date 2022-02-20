@@ -14,6 +14,12 @@ class Poll extends Component {
     currentAnwer: 'optionOne',
   }
 
+  componentDidMount() {
+    if (!this.props.question) {
+      this.props.history.push('/404');
+    }
+  }
+
   onSubmitVote = () => {
     const { dispatch, currentUser, question} = this.props;
     dispatch(saveUserAnswer({ authedUser: currentUser.id, qid:question.id, answer:this.state.currentAnwer }));
@@ -63,7 +69,7 @@ class Poll extends Component {
 
   renderVoteSubmit = () => {
     const { question, cardInfo } = this.props;
-    return (
+    return question && (
       <Card
         key={cardInfo.id}
         name={cardInfo.name}
@@ -101,7 +107,7 @@ function mapStateToProps (state, ownProps) {
   return {
     isNewVote: isEmpty(currentUser.answers[idQuestion]),
     question,
-    cardInfo: state?.users[question.author] || {},
+    cardInfo: (question && state?.users[question.author]) || {},
     currentUser
   };
 }
